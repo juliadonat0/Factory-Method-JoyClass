@@ -1,5 +1,5 @@
 class Computer {
-    constructor(ram: number, hdd:number, cpu:number) {
+    constructor(public ram: number, public hdd:number, public cpu:number) {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;
